@@ -32,6 +32,10 @@ class ts extends StatelessWidget {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        floatingActionButton: FloatingActionButton(
+            backgroundColor: Color.fromARGB(229, 19, 255, 200),
+            onPressed: () {},
+            child: Icon(Icons.arrow_back)),
         appBar: AppBar(
           title: Text(
             "swipe",
