@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+// go to pub get and copy liquid swipe package dependenci and inport package.
+
 import 'package:liquid_swipe/liquid_swipe.dart';
 
 void main() {
@@ -17,6 +20,9 @@ class ts extends StatelessWidget {
     Container(color: Color.fromARGB(255, 139, 225, 179)),
     Container(color: Color.fromARGB(255, 5, 255, 234)),
     Container(color: Color.fromARGB(255, 37, 177, 216)),
+    Container(color: Color.fromARGB(255, 152, 195, 215)),
+    Container(color: Color.fromARGB(255, 80, 85, 225)),
+    Container(color: Color.fromARGB(255, 251, 72, 233))
   ];
 
   // get swipe => null;
